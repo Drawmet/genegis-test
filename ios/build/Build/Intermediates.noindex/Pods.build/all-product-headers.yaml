@@ -1,0 +1,132 @@
+{
+  'version': 0,
+  'case-sensitive': 'false',
+  'roots': [
+    {
+      'type': 'directory',
+      'name': "/Users/developer/Desktop/react-native-test/genesis/ios/build/Build/Products/Debug-iphonesimulator/DCTAuth/DCTAuth.framework/Headers",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "DCTAuth-Swift.h",
+          'external-contents': "/Users/developer/Desktop/react-native-test/genesis/ios/build/Build/Products/Debug-iphonesimulator/DCTAuth/DCTAuth.framework/Headers/DCTAuth-Swift.h"
+        },
+        {
+          'type': 'file',
+          'name': "DCTAuth-umbrella.h",
+          'external-contents': "/Users/developer/Desktop/react-native-test/genesis/ios/Pods/Target Support Files/DCTAuth/DCTAuth-umbrella.h"
+        },
+        {
+          'type': 'file',
+          'name': "DCTAuth.h",
+          'external-contents': "/Users/developer/Desktop/react-native-test/genesis/ios/Pods/DCTAuth/DCTAuth/DCTAuth.h"
+        },
+        {
+          'type': 'file',
+          'name': "DCTAuthAccount.h",
+          'external-contents': "/Users/developer/Desktop/react-native-test/genesis/ios/Pods/DCTAuth/DCTAuth/DCTAuthAccount.h"
+        },
+        {
+          'type': 'file',
+          'name': "DCTAuthAccountCredential.h",
+          'external-contents': "/Users/developer/Desktop/react-native-test/genesis/ios/Pods/DCTAuth/DCTAuth/DCTAuthAccountCredential.h"
+        },
+        {
+          'type': 'file',
+          'name': "DCTAuthAccountStore.h",
+          'external-contents': "/Users/developer/Desktop/react-native-test/genesis/ios/Pods/DCTAuth/DCTAuth/DCTAuthAccountStore.h"
+        },
+        {
+          'type': 'file',
+          'name': "DCTAuthAccountSubclass.h",
+          'external-contents': "/Users/developer/Desktop/react-native-test/genesis/ios/Pods/DCTAuth/DCTAuth/DCTAuthAccountSubclass.h"
+        },
+        {
+          'type': 'file',
+          'name': "DCTAuthPlatform.h",
+          'external-contents': "/Users/developer/Desktop/react-native-test/genesis/ios/Pods/DCTAuth/DCTAuth/DCTAuthPlatform.h"
+        },
+        {
+          'type': 'file',
+          'name': "DCTAuthRequest.h",
+          'external-contents': "/Users/developer/Desktop/react-native-test/genesis/ios/Pods/DCTAuth/DCTAuth/DCTAuthRequest.h"
+        },
+        {
+          'type': 'file',
+          'name': "DCTAuthRequestMethod.h",
+          'external-contents': "/Users/developer/Desktop/react-native-test/genesis/ios/Pods/DCTAuth/DCTAuth/DCTAuthRequestMethod.h"
+        },
+        {
+          'type': 'file',
+          'name': "DCTAuthResponse.h",
+          'external-contents': "/Users/developer/Desktop/react-native-test/genesis/ios/Pods/DCTAuth/DCTAuth/DCTAuthResponse.h"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/developer/Desktop/react-native-test/genesis/ios/build/Build/Products/Debug-iphonesimulator/DCTAuth/DCTAuth.framework/Modules",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "module.modulemap",
+          'external-contents': "/Users/developer/Desktop/react-native-test/genesis/ios/build/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/DCTAuth.build/module.modulemap"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/developer/Desktop/react-native-test/genesis/ios/build/Build/Products/Debug-iphonesimulator/Pods_genesis.framework/Headers",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "Pods-genesis-umbrella.h",
+          'external-contents': "/Users/developer/Desktop/react-native-test/genesis/ios/Pods/Target Support Files/Pods-genesis/Pods-genesis-umbrella.h"
+        },
+        {
+          'type': 'file',
+          'name': "Pods_genesis-Swift.h",
+          'external-contents': "/Users/developer/Desktop/react-native-test/genesis/ios/build/Build/Products/Debug-iphonesimulator/Pods_genesis.framework/Headers/Pods_genesis-Swift.h"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/developer/Desktop/react-native-test/genesis/ios/build/Build/Products/Debug-iphonesimulator/Pods_genesis.framework/Modules",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "module.modulemap",
+          'external-contents': "/Users/developer/Desktop/react-native-test/genesis/ios/build/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/Pods-genesis.build/module.modulemap"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/developer/Desktop/react-native-test/genesis/ios/build/Build/Products/Debug-iphonesimulator/Pods_genesisTests.framework/Headers",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "Pods-genesisTests-umbrella.h",
+          'external-contents': "/Users/developer/Desktop/react-native-test/genesis/ios/Pods/Target Support Files/Pods-genesisTests/Pods-genesisTests-umbrella.h"
+        },
+        {
+          'type': 'file',
+          'name': "Pods_genesisTests-Swift.h",
+          'external-contents': "/Users/developer/Desktop/react-native-test/genesis/ios/build/Build/Products/Debug-iphonesimulator/Pods_genesisTests.framework/Headers/Pods_genesisTests-Swift.h"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/developer/Desktop/react-native-test/genesis/ios/build/Build/Products/Debug-iphonesimulator/Pods_genesisTests.framework/Modules",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "module.modulemap",
+          'external-contents': "/Users/developer/Desktop/react-native-test/genesis/ios/build/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/Pods-genesisTests.build/module.modulemap"
+        }
+      ]
+    }
+  ]
+}
