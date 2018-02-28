@@ -28,7 +28,6 @@ class Home extends React.PureComponent {
         search: '',
         onEndReachedCalledDuringMomentum: false,
         filterVisible: false,
-        selected: (new Map(): Map<string, boolean>)
     };
 
     handleOnValueChangePicker = (itemValue) => {
@@ -93,7 +92,7 @@ class Home extends React.PureComponent {
 
         return (
             <Container style={styles.container}>
-                <Content>
+                <View style={{flex: 1}}>
                     <Header
                         style={{ backgroundColor: 'transparent' }}
                         searchBar
@@ -132,10 +131,8 @@ class Home extends React.PureComponent {
                         style={styles.flatlist}
                         bounces={false}
                         data={reposData}
-                        extraData={this.state}
                         renderItem={({ item }) =>
                             <ItemModalView
-                                selected={!!this.state.selected.get(item.id)}
                                 data={item}
                             />
                         }
@@ -144,7 +141,7 @@ class Home extends React.PureComponent {
                         onMomentumScrollBegin={() => this.setState({ onEndReachedCalledDuringMomentum: false })}
                         onMomentumScrollEnd={this.handleOnReachTreshHold}
                     />
-                </Content>
+                </View>
             </Container>
         );
     }
