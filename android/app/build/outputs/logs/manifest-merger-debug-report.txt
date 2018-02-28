@@ -21,22 +21,22 @@ ADDED from /Users/developer/Desktop/react-native-test/genesis/android/app/src/ma
 		ADDED from /Users/developer/Desktop/react-native-test/genesis/android/app/src/main/AndroidManifest.xml:6:22-64
 uses-permission#android.permission.SYSTEM_ALERT_WINDOW
 ADDED from /Users/developer/Desktop/react-native-test/genesis/android/app/src/main/AndroidManifest.xml:7:5-77
-MERGED from [com.facebook.react:react-native:0.52.0] /Users/developer/Desktop/react-native-test/genesis/android/app/build/intermediates/exploded-aar/com.facebook.react/react-native/0.52.0/AndroidManifest.xml:11:5-78
+MERGED from [com.facebook.react:react-native:0.52.0] /Users/developer/.android/build-cache/5a38052113ba74f1cdee790b7bc33dadf79de7e9/output/AndroidManifest.xml:11:5-78
 	android:name
 		ADDED from /Users/developer/Desktop/react-native-test/genesis/android/app/src/main/AndroidManifest.xml:7:22-75
 uses-sdk
 ADDED from /Users/developer/Desktop/react-native-test/genesis/android/app/src/main/AndroidManifest.xml:9:5-11:41
-MERGED from [com.facebook.react:react-native:0.52.0] /Users/developer/Desktop/react-native-test/genesis/android/app/build/intermediates/exploded-aar/com.facebook.react/react-native/0.52.0/AndroidManifest.xml:7:5-9:41
-MERGED from [com.android.support:appcompat-v7:23.0.1] /Users/developer/Desktop/react-native-test/genesis/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/AndroidManifest.xml:20:5-43
-MERGED from [com.android.support:support-v4:23.0.1] /Users/developer/Desktop/react-native-test/genesis/android/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.0.1/AndroidManifest.xml:20:5-43
-MERGED from [com.facebook.fbui.textlayoutbuilder:textlayoutbuilder:1.0.0] /Users/developer/Desktop/react-native-test/genesis/android/app/build/intermediates/exploded-aar/com.facebook.fbui.textlayoutbuilder/textlayoutbuilder/1.0.0/AndroidManifest.xml:14:5-16:41
-MERGED from [com.facebook.fresco:fresco:1.3.0] /Users/developer/Desktop/react-native-test/genesis/android/app/build/intermediates/exploded-aar/com.facebook.fresco/fresco/1.3.0/AndroidManifest.xml:5:5-7:41
-MERGED from [com.facebook.fresco:drawee:1.3.0] /Users/developer/Desktop/react-native-test/genesis/android/app/build/intermediates/exploded-aar/com.facebook.fresco/drawee/1.3.0/AndroidManifest.xml:5:5-7:41
-MERGED from [com.facebook.fresco:imagepipeline-okhttp3:1.3.0] /Users/developer/Desktop/react-native-test/genesis/android/app/build/intermediates/exploded-aar/com.facebook.fresco/imagepipeline-okhttp3/1.3.0/AndroidManifest.xml:5:5-7:41
-MERGED from [com.facebook.fresco:imagepipeline:1.3.0] /Users/developer/Desktop/react-native-test/genesis/android/app/build/intermediates/exploded-aar/com.facebook.fresco/imagepipeline/1.3.0/AndroidManifest.xml:5:5-7:41
-MERGED from [com.facebook.fresco:imagepipeline-base:1.3.0] /Users/developer/Desktop/react-native-test/genesis/android/app/build/intermediates/exploded-aar/com.facebook.fresco/imagepipeline-base/1.3.0/AndroidManifest.xml:5:5-7:41
-MERGED from [com.facebook.fresco:fbcore:1.3.0] /Users/developer/Desktop/react-native-test/genesis/android/app/build/intermediates/exploded-aar/com.facebook.fresco/fbcore/1.3.0/AndroidManifest.xml:5:5-7:41
-MERGED from [com.facebook.soloader:soloader:0.1.0] /Users/developer/Desktop/react-native-test/genesis/android/app/build/intermediates/exploded-aar/com.facebook.soloader/soloader/0.1.0/AndroidManifest.xml:2:3-70
+MERGED from [com.facebook.react:react-native:0.52.0] /Users/developer/.android/build-cache/5a38052113ba74f1cdee790b7bc33dadf79de7e9/output/AndroidManifest.xml:7:5-9:41
+MERGED from [com.android.support:appcompat-v7:23.0.1] /Users/developer/.android/build-cache/9d8ecfc8b89805bb158b349594d0c3bd5a20eb51/output/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:support-v4:23.0.1] /Users/developer/.android/build-cache/37ba657c070bf3b798f4ebe64a4a9c4440bd2ad7/output/AndroidManifest.xml:20:5-43
+MERGED from [com.facebook.fbui.textlayoutbuilder:textlayoutbuilder:1.0.0] /Users/developer/.android/build-cache/26f2dc3c4361afcb175315d9f3fc4fc6a29dd35f/output/AndroidManifest.xml:14:5-16:41
+MERGED from [com.facebook.fresco:fresco:1.3.0] /Users/developer/.android/build-cache/29a19b2decb4328fa6c61bf1074b4f32d493a54d/output/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:drawee:1.3.0] /Users/developer/.android/build-cache/d3adbfa27b3df4078997b904e1065782fae4bd5b/output/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline-okhttp3:1.3.0] /Users/developer/.android/build-cache/6cee6810efa8d969fcd760d98786ba1a180af74b/output/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline:1.3.0] /Users/developer/.android/build-cache/4d9287c98f759f924b976dabdb632906518d7363/output/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline-base:1.3.0] /Users/developer/.android/build-cache/e98d8fa9bef0264c34f58f46030dfb89c49c3a30/output/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:fbcore:1.3.0] /Users/developer/.android/build-cache/56ba1636e06b32d56b970161d87e51a50eb03635/output/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.soloader:soloader:0.1.0] /Users/developer/.android/build-cache/bed96b8b2d646103dbaa9aa475d3674f2db92492/output/AndroidManifest.xml:2:3-70
 	android:targetSdkVersion
 		ADDED from /Users/developer/Desktop/react-native-test/genesis/android/app/src/main/AndroidManifest.xml:11:9-38
 		INJECTED from /Users/developer/Desktop/react-native-test/genesis/android/app/src/main/AndroidManifest.xml
@@ -47,11 +47,11 @@ MERGED from [com.facebook.soloader:soloader:0.1.0] /Users/developer/Desktop/reac
 		INJECTED from /Users/developer/Desktop/react-native-test/genesis/android/app/src/main/AndroidManifest.xml
 application
 ADDED from /Users/developer/Desktop/react-native-test/genesis/android/app/src/main/AndroidManifest.xml:13:5-35:19
-MERGED from [com.facebook.react:react-native:0.52.0] /Users/developer/Desktop/react-native-test/genesis/android/app/build/intermediates/exploded-aar/com.facebook.react/react-native/0.52.0/AndroidManifest.xml:13:5-20
-MERGED from [com.android.support:appcompat-v7:23.0.1] /Users/developer/Desktop/react-native-test/genesis/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/AndroidManifest.xml:22:5-20
-MERGED from [com.android.support:support-v4:23.0.1] /Users/developer/Desktop/react-native-test/genesis/android/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.0.1/AndroidManifest.xml:22:5-20
-MERGED from [com.facebook.soloader:soloader:0.1.0] /Users/developer/Desktop/react-native-test/genesis/android/app/build/intermediates/exploded-aar/com.facebook.soloader/soloader/0.1.0/AndroidManifest.xml:3:3-17
-MERGED from [org.webkit:android-jsc:r174650] /Users/developer/Desktop/react-native-test/genesis/android/app/build/intermediates/exploded-aar/org.webkit/android-jsc/r174650/AndroidManifest.xml:2:3-17
+MERGED from [com.facebook.react:react-native:0.52.0] /Users/developer/.android/build-cache/5a38052113ba74f1cdee790b7bc33dadf79de7e9/output/AndroidManifest.xml:13:5-20
+MERGED from [com.android.support:appcompat-v7:23.0.1] /Users/developer/.android/build-cache/9d8ecfc8b89805bb158b349594d0c3bd5a20eb51/output/AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:support-v4:23.0.1] /Users/developer/.android/build-cache/37ba657c070bf3b798f4ebe64a4a9c4440bd2ad7/output/AndroidManifest.xml:22:5-20
+MERGED from [com.facebook.soloader:soloader:0.1.0] /Users/developer/.android/build-cache/bed96b8b2d646103dbaa9aa475d3674f2db92492/output/AndroidManifest.xml:3:3-17
+MERGED from [org.webkit:android-jsc:r174650] /Users/developer/.android/build-cache/4a65997c8b87233dbcfd9b97882b733973d4adf6/output/AndroidManifest.xml:2:3-17
 	android:label
 		ADDED from /Users/developer/Desktop/react-native-test/genesis/android/app/src/main/AndroidManifest.xml:16:7-39
 	android:allowBackup
@@ -108,9 +108,9 @@ activity#com.facebook.react.devsupport.DevSettingsActivity
 ADDED from /Users/developer/Desktop/react-native-test/genesis/android/app/src/main/AndroidManifest.xml:34:7-84
 	android:name
 		ADDED from /Users/developer/Desktop/react-native-test/genesis/android/app/src/main/AndroidManifest.xml:34:17-81
-android:uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
 IMPLIED from /Users/developer/Desktop/react-native-test/genesis/android/app/src/main/AndroidManifest.xml:1:1-37:12 reason: org.webkit.android_jsc has a targetSdkVersion < 4
-android:uses-permission#android.permission.READ_PHONE_STATE
+uses-permission#android.permission.READ_PHONE_STATE
 IMPLIED from /Users/developer/Desktop/react-native-test/genesis/android/app/src/main/AndroidManifest.xml:1:1-37:12 reason: org.webkit.android_jsc has a targetSdkVersion < 4
-android:uses-permission#android.permission.READ_EXTERNAL_STORAGE
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
 IMPLIED from /Users/developer/Desktop/react-native-test/genesis/android/app/src/main/AndroidManifest.xml:1:1-37:12 reason: org.webkit.android_jsc requested WRITE_EXTERNAL_STORAGE

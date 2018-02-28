@@ -1,4 +1,7 @@
-#Tue Feb 27 06:31:08 EET 2018
-base.0=/Users/developer/Desktop/react-native-test/genesis/android/app/build/intermediates/transforms/dex/debug/folders/1000/1f/main
+#Wed Feb 28 09:59:08 EET 2018
+base.0=/Users/developer/Desktop/react-native-test/genesis/android/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_f54d8340ad4ff434f15dc5ddb1c392bd2058a445
+renamed.1=classes2.dex
 renamed.0=classes.dex
-file.0=/Users/developer/Desktop/react-native-test/genesis/android/app/build/intermediates/transforms/dex/debug/folders/1000/1f/main/classes.dex
+file.1=/Users/developer/Desktop/react-native-test/genesis/android/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_33753ea185b4e43e4662a07961b814dbfb15ccc7/classes.dex
+base.1=/Users/developer/Desktop/react-native-test/genesis/android/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_33753ea185b4e43e4662a07961b814dbfb15ccc7
+file.0=/Users/developer/Desktop/react-native-test/genesis/android/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_f54d8340ad4ff434f15dc5ddb1c392bd2058a445/classes.dex

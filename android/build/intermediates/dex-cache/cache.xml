@@ -2,193 +2,211 @@
 <items version="2" >
 
     <item
-        is-multidex="false"
-        jar="/Users/developer/.gradle/caches/modules-2/files-2.1/com.facebook.fbui.textlayoutbuilder/staticlayout-proxy/1.0/f162442a19fff13995fbd51ba414d9ee05579080/staticlayout-proxy-1.0.jar"
-        jumboMode="false"
+        is-multidex="true"
+        jar="/Users/developer/Desktop/react-native-test/genesis/android/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
         optimize="true"
-        revision="23.0.1"
-        sha1="f162442a19fff13995fbd51ba414d9ee05579080">
-        <dex dex="/Users/developer/Desktop/react-native-test/genesis/android/app/build/intermediates/pre-dexed/debug/staticlayout-proxy-1.0_74961b393faa31807b6d11065cc5125609e6b813.jar" />
+        revision="26.0.2"
+        sha1="c673dc6d146b1c3d8552c86cf0d88186d48536d6">
+        <dex dex="/Users/developer/Desktop/react-native-test/genesis/android/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_33753ea185b4e43e4662a07961b814dbfb15ccc7/classes.dex" />
     </item>
     <item
-        is-multidex="false"
-        jar="/Users/developer/Desktop/react-native-test/genesis/android/app/build/intermediates/exploded-aar/com.facebook.react/react-native/0.52.0/jars/libs/infer-annotations-4.0.jar"
-        jumboMode="false"
+        is-multidex="true"
+        jar="/Users/developer/.android/build-cache/5a38052113ba74f1cdee790b7bc33dadf79de7e9/output/jars/classes.jar"
+        jumboMode="true"
         optimize="true"
-        revision="23.0.1"
-        sha1="9809e90be788acdb479b2b44e2112f3295a03068">
-        <dex dex="/Users/developer/Desktop/react-native-test/genesis/android/app/build/intermediates/pre-dexed/debug/infer-annotations-4.0_0e016f33919a8cb69239ff6b7cbd1dea9e997c17.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/developer/.gradle/caches/modules-2/files-2.1/com.parse.bolts/bolts-tasks/1.4.0/d85884acf6810a3bbbecb587f239005cbc846dc4/bolts-tasks-1.4.0.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.1"
-        sha1="d85884acf6810a3bbbecb587f239005cbc846dc4">
-        <dex dex="/Users/developer/Desktop/react-native-test/genesis/android/app/build/intermediates/pre-dexed/debug/bolts-tasks-1.4.0_f6d6246ba24aed888e3be0444158f3ad0abb3325.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/developer/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp3/okhttp-urlconnection/3.6.0/3f9b16b774f2c36cfd86dd2053d0b3059531dacc/okhttp-urlconnection-3.6.0.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.1"
-        sha1="3f9b16b774f2c36cfd86dd2053d0b3059531dacc">
-        <dex dex="/Users/developer/Desktop/react-native-test/genesis/android/app/build/intermediates/pre-dexed/debug/okhttp-urlconnection-3.6.0_b360d0fc18fe206892e6d03c17634b9e56e206c5.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/developer/Desktop/react-native-test/genesis/android/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.0.1/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.1"
-        sha1="c31e21b53ff2f74664e498248d01453a32e32d48">
-        <dex dex="/Users/developer/Desktop/react-native-test/genesis/android/app/build/intermediates/pre-dexed/debug/com.android.support-support-v4-23.0.1_e3fec9e831493d34833695d149976a955eb8463d.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/developer/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp3/okhttp/3.6.0/69edde9fc4b01c9fd51d25b83428837478c27254/okhttp-3.6.0.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.1"
-        sha1="69edde9fc4b01c9fd51d25b83428837478c27254">
-        <dex dex="/Users/developer/Desktop/react-native-test/genesis/android/app/build/intermediates/pre-dexed/debug/okhttp-3.6.0_bbd0cb834f5975be86d6419cd80b2aaeb96147b9.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/developer/Desktop/react-native-test/genesis/android/app/build/intermediates/exploded-aar/com.facebook.fresco/imagepipeline-base/1.3.0/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.1"
-        sha1="72128af126ddd7d6252da9357fe560d3abcdfb0c">
-        <dex dex="/Users/developer/Desktop/react-native-test/genesis/android/app/build/intermediates/pre-dexed/debug/com.facebook.fresco-imagepipeline-base-1.3.0_bfaf159c11283fbcd38709d8dd6f884f88984d67.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/developer/Desktop/react-native-test/genesis/android/app/build/intermediates/exploded-aar/com.facebook.fresco/fbcore/1.3.0/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.1"
-        sha1="37345de2ed2772f385eaeec37a9c2ff0fea99ad7">
-        <dex dex="/Users/developer/Desktop/react-native-test/genesis/android/app/build/intermediates/pre-dexed/debug/com.facebook.fresco-fbcore-1.3.0_990a7aedce37b708207aab91581711c3e97aaf8b.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/developer/Desktop/react-native-test/genesis/android/app/build/intermediates/exploded-aar/com.facebook.soloader/soloader/0.1.0/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.1"
-        sha1="8f615bca00639150c9eb6175d4b5471193f70794">
-        <dex dex="/Users/developer/Desktop/react-native-test/genesis/android/app/build/intermediates/pre-dexed/debug/com.facebook.soloader-soloader-0.1.0_d3ddd2b9f08bfddc780ffc4f9226a715c562afc3.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/developer/Desktop/react-native-test/genesis/android/app/build/intermediates/exploded-aar/com.facebook.fbui.textlayoutbuilder/textlayoutbuilder/1.0.0/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.1"
-        sha1="f90b593491e4044903f0bbf68dc3fa2790b151b9">
-        <dex dex="/Users/developer/Desktop/react-native-test/genesis/android/app/build/intermediates/pre-dexed/debug/com.facebook.fbui.textlayoutbuilder-textlayoutbuilder-1.0.0_e91b8d5d8e25cfd222a9863b29b8841d6a5c46af.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/developer/Desktop/react-native-test/genesis/android/app/build/intermediates/exploded-aar/com.facebook.fresco/drawee/1.3.0/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.1"
-        sha1="c65a2e39d54023bac3aef64a2f0cff89289c7ff6">
-        <dex dex="/Users/developer/Desktop/react-native-test/genesis/android/app/build/intermediates/pre-dexed/debug/com.facebook.fresco-drawee-1.3.0_1deb34e27741fee52e495e6ac583b22b68a3768e.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/developer/Desktop/react-native-test/genesis/android/app/build/intermediates/exploded-aar/com.facebook.fresco/imagepipeline/1.3.0/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.1"
-        sha1="48c7f54c2515a2312d3a4481d10c43fbb807f3af">
-        <dex dex="/Users/developer/Desktop/react-native-test/genesis/android/app/build/intermediates/pre-dexed/debug/com.facebook.fresco-imagepipeline-1.3.0_b82164b1b45d54f2a94232fc3c77124c1958a094.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/developer/Desktop/react-native-test/genesis/android/app/build/intermediates/exploded-aar/com.facebook.fresco/fresco/1.3.0/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.1"
-        sha1="fe85b87215e405f5917d40ae4960488ac9224b74">
-        <dex dex="/Users/developer/Desktop/react-native-test/genesis/android/app/build/intermediates/pre-dexed/debug/com.facebook.fresco-fresco-1.3.0_e2dd12c5cf5c67d254c5bad1055afdf55bb0a10a.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/developer/Desktop/react-native-test/genesis/android/app/build/intermediates/exploded-aar/com.facebook.fresco/imagepipeline-okhttp3/1.3.0/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.1"
-        sha1="c03c08c9934b23c8c09c803345ec51a74119127b">
-        <dex dex="/Users/developer/Desktop/react-native-test/genesis/android/app/build/intermediates/pre-dexed/debug/com.facebook.fresco-imagepipeline-okhttp3-1.3.0_abbc53a3b6fa7a08cec0860f88828e70db4e4301.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/developer/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/23.0.1/support-annotations-23.0.1.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.1"
-        sha1="1fce89a6428c51467090d7f424e4c9c3dbd55f7e">
-        <dex dex="/Users/developer/Desktop/react-native-test/genesis/android/app/build/intermediates/pre-dexed/debug/support-annotations-23.0.1_3160da7e2a572fc680216e75df63253540802557.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/developer/Desktop/react-native-test/genesis/android/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.0.1/jars/libs/internal_impl-23.0.1.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.1"
-        sha1="aa92916125166649d8ad4ba3940c3dd7515596d3">
-        <dex dex="/Users/developer/Desktop/react-native-test/genesis/android/app/build/intermediates/pre-dexed/debug/internal_impl-23.0.1_031faefbc720f22bd6e4f80b4d51cf9a68f531c8.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/developer/Desktop/react-native-test/genesis/android/app/build/intermediates/exploded-aar/com.facebook.react/react-native/0.52.0/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.1"
+        revision="26.0.2"
         sha1="af61eb11ffb4296cab0c93218248a3dfcec0a84c">
-        <dex dex="/Users/developer/Desktop/react-native-test/genesis/android/app/build/intermediates/pre-dexed/debug/com.facebook.react-react-native-0.52.0_f1acdc3b945cf5699eac0bd1d20ccc8d97f9814a.jar" />
+        <dex dex="/Users/developer/Desktop/react-native-test/genesis/android/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_bf87f38d574b89d77d828a86779f9f5c3c6b93ca/classes.dex" />
     </item>
     <item
-        is-multidex="false"
-        jar="/Users/developer/Desktop/react-native-test/genesis/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/jars/classes.jar"
-        jumboMode="false"
+        is-multidex="true"
+        jar="/Users/developer/.android/build-cache/9d8ecfc8b89805bb158b349594d0c3bd5a20eb51/output/jars/classes.jar"
+        jumboMode="true"
         optimize="true"
-        revision="23.0.1"
+        revision="26.0.2"
         sha1="d86429b0f0b3f3cafbeb78dda1b9d89119ccb05d">
-        <dex dex="/Users/developer/Desktop/react-native-test/genesis/android/app/build/intermediates/pre-dexed/debug/com.android.support-appcompat-v7-23.0.1_a8203132f0f65efed39e34d49727671c5880426a.jar" />
+        <dex dex="/Users/developer/Desktop/react-native-test/genesis/android/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_d7e91c5de6ef9647f6da8b80e683eeb33e12b0e6/classes.dex" />
     </item>
     <item
-        is-multidex="false"
+        is-multidex="true"
+        jar="/Users/developer/.android/build-cache/29a19b2decb4328fa6c61bf1074b4f32d493a54d/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.2"
+        sha1="fe85b87215e405f5917d40ae4960488ac9224b74">
+        <dex dex="/Users/developer/Desktop/react-native-test/genesis/android/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_985479b164d1bbb2ac76cf6ada2b585783b9863b/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/developer/.android/build-cache/6cee6810efa8d969fcd760d98786ba1a180af74b/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.2"
+        sha1="c03c08c9934b23c8c09c803345ec51a74119127b">
+        <dex dex="/Users/developer/Desktop/react-native-test/genesis/android/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_98253f681bc890649634e6be06424584962936b5/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
         jar="/Users/developer/.m2/repository/com/google/code/findbugs/jsr305/3.0.0/jsr305-3.0.0.jar"
-        jumboMode="false"
+        jumboMode="true"
         optimize="true"
-        revision="23.0.1"
+        revision="26.0.2"
         sha1="5871fb60dc68d67da54a663c3fd636a10a532948">
-        <dex dex="/Users/developer/Desktop/react-native-test/genesis/android/app/build/intermediates/pre-dexed/debug/jsr305-3.0.0_0ee059487e3236488b4d6fa39ee75371719241de.jar" />
+        <dex dex="/Users/developer/Desktop/react-native-test/genesis/android/app/build/intermediates/transforms/dex/debug/folders/1000/10/jsr305-3.0.0_0ee059487e3236488b4d6fa39ee75371719241de/classes.dex" />
     </item>
     <item
-        is-multidex="false"
+        is-multidex="true"
+        jar="/Users/developer/.android/build-cache/37ba657c070bf3b798f4ebe64a4a9c4440bd2ad7/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.2"
+        sha1="c31e21b53ff2f74664e498248d01453a32e32d48">
+        <dex dex="/Users/developer/Desktop/react-native-test/genesis/android/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_01adb441f89e613980bec0d96f8444c192bbaf9d/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/developer/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp3/okhttp/3.6.0/69edde9fc4b01c9fd51d25b83428837478c27254/okhttp-3.6.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.2"
+        sha1="69edde9fc4b01c9fd51d25b83428837478c27254">
+        <dex dex="/Users/developer/Desktop/react-native-test/genesis/android/app/build/intermediates/transforms/dex/debug/folders/1000/10/okhttp-3.6.0_bbd0cb834f5975be86d6419cd80b2aaeb96147b9/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/developer/Desktop/react-native-test/genesis/android/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.2"
+        sha1="3be78ebc2706b2e1fe2f12d5726887a92d6c183b">
+        <dex dex="/Users/developer/Desktop/react-native-test/genesis/android/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_f54d8340ad4ff434f15dc5ddb1c392bd2058a445/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/developer/.gradle/caches/modules-2/files-2.1/com.facebook.fbui.textlayoutbuilder/staticlayout-proxy/1.0/f162442a19fff13995fbd51ba414d9ee05579080/staticlayout-proxy-1.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.2"
+        sha1="f162442a19fff13995fbd51ba414d9ee05579080">
+        <dex dex="/Users/developer/Desktop/react-native-test/genesis/android/app/build/intermediates/transforms/dex/debug/folders/1000/10/staticlayout-proxy-1.0_74961b393faa31807b6d11065cc5125609e6b813/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/developer/.android/build-cache/e98d8fa9bef0264c34f58f46030dfb89c49c3a30/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.2"
+        sha1="72128af126ddd7d6252da9357fe560d3abcdfb0c">
+        <dex dex="/Users/developer/Desktop/react-native-test/genesis/android/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_6658d497f0522fc8ea8513da8c6878f85944707d/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/developer/.android/build-cache/5a38052113ba74f1cdee790b7bc33dadf79de7e9/output/jars/libs/infer-annotations-4.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.2"
+        sha1="9809e90be788acdb479b2b44e2112f3295a03068">
+        <dex dex="/Users/developer/Desktop/react-native-test/genesis/android/app/build/intermediates/transforms/dex/debug/folders/1000/10/infer-annotations-4.0_29082c80ba2f8722aef05d7d2785a295209a4d28/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/developer/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/23.0.1/support-annotations-23.0.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.2"
+        sha1="1fce89a6428c51467090d7f424e4c9c3dbd55f7e">
+        <dex dex="/Users/developer/Desktop/react-native-test/genesis/android/app/build/intermediates/transforms/dex/debug/folders/1000/10/support-annotations-23.0.1_3160da7e2a572fc680216e75df63253540802557/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
         jar="/Users/developer/.m2/repository/javax/inject/javax.inject/1/javax.inject-1.jar"
-        jumboMode="false"
+        jumboMode="true"
         optimize="true"
-        revision="23.0.1"
+        revision="26.0.2"
         sha1="6975da39a7040257bd51d21a231b76c915872d38">
-        <dex dex="/Users/developer/Desktop/react-native-test/genesis/android/app/build/intermediates/pre-dexed/debug/javax.inject-1_11b4a9fb1a9ae4424176488c91344cab8f3b1715.jar" />
+        <dex dex="/Users/developer/Desktop/react-native-test/genesis/android/app/build/intermediates/transforms/dex/debug/folders/1000/10/javax.inject-1_11b4a9fb1a9ae4424176488c91344cab8f3b1715/classes.dex" />
     </item>
     <item
-        is-multidex="false"
+        is-multidex="true"
         jar="/Users/developer/.m2/repository/com/squareup/okio/okio/1.13.0/okio-1.13.0.jar"
-        jumboMode="false"
+        jumboMode="true"
         optimize="true"
-        revision="23.0.1"
+        revision="26.0.2"
         sha1="a9283170b7305c8d92d25aff02a6ab7e45d06cbe">
-        <dex dex="/Users/developer/Desktop/react-native-test/genesis/android/app/build/intermediates/pre-dexed/debug/okio-1.13.0_a1dc8075f86b734ca1f89285a3c4147ddd9f927c.jar" />
+        <dex dex="/Users/developer/Desktop/react-native-test/genesis/android/app/build/intermediates/transforms/dex/debug/folders/1000/10/okio-1.13.0_a1dc8075f86b734ca1f89285a3c4147ddd9f927c/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/developer/.android/build-cache/4d9287c98f759f924b976dabdb632906518d7363/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.2"
+        sha1="48c7f54c2515a2312d3a4481d10c43fbb807f3af">
+        <dex dex="/Users/developer/Desktop/react-native-test/genesis/android/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_668d96035728a96d5d50241785f6db47cf11a14d/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/developer/.android/build-cache/d3adbfa27b3df4078997b904e1065782fae4bd5b/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.2"
+        sha1="c65a2e39d54023bac3aef64a2f0cff89289c7ff6">
+        <dex dex="/Users/developer/Desktop/react-native-test/genesis/android/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_5ff1f687d36c924c76ea7995ae472a126f6858ed/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/developer/.gradle/caches/modules-2/files-2.1/com.parse.bolts/bolts-tasks/1.4.0/d85884acf6810a3bbbecb587f239005cbc846dc4/bolts-tasks-1.4.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.2"
+        sha1="d85884acf6810a3bbbecb587f239005cbc846dc4">
+        <dex dex="/Users/developer/Desktop/react-native-test/genesis/android/app/build/intermediates/transforms/dex/debug/folders/1000/10/bolts-tasks-1.4.0_f6d6246ba24aed888e3be0444158f3ad0abb3325/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/developer/.android/build-cache/56ba1636e06b32d56b970161d87e51a50eb03635/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.2"
+        sha1="37345de2ed2772f385eaeec37a9c2ff0fea99ad7">
+        <dex dex="/Users/developer/Desktop/react-native-test/genesis/android/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_4b08c774a44b50a336fc5e7f8708ed745ad0225c/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/developer/.android/build-cache/bed96b8b2d646103dbaa9aa475d3674f2db92492/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.2"
+        sha1="8f615bca00639150c9eb6175d4b5471193f70794">
+        <dex dex="/Users/developer/Desktop/react-native-test/genesis/android/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_0197cf8d26a517e13f9bd61f790dcdb39d878195/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/developer/.android/build-cache/37ba657c070bf3b798f4ebe64a4a9c4440bd2ad7/output/jars/libs/internal_impl-23.0.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.2"
+        sha1="aa92916125166649d8ad4ba3940c3dd7515596d3">
+        <dex dex="/Users/developer/Desktop/react-native-test/genesis/android/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-23.0.1_e665a2067eda798037b92ea174762f4fb8c8f460/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/developer/.android/build-cache/26f2dc3c4361afcb175315d9f3fc4fc6a29dd35f/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.2"
+        sha1="f90b593491e4044903f0bbf68dc3fa2790b151b9">
+        <dex dex="/Users/developer/Desktop/react-native-test/genesis/android/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_98089e949260da09faf1a9a4bc4c8ac65d64480b/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/developer/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp3/okhttp-urlconnection/3.6.0/3f9b16b774f2c36cfd86dd2053d0b3059531dacc/okhttp-urlconnection-3.6.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.2"
+        sha1="3f9b16b774f2c36cfd86dd2053d0b3059531dacc">
+        <dex dex="/Users/developer/Desktop/react-native-test/genesis/android/app/build/intermediates/transforms/dex/debug/folders/1000/10/okhttp-urlconnection-3.6.0_b360d0fc18fe206892e6d03c17634b9e56e206c5/classes.dex" />
     </item>
 
 </items>
