@@ -20,7 +20,7 @@ import {
 import styles from '../styles';
 import ItemModalView from './ItemModalView';
 
-class Home extends React.PureComponent {
+class Home extends Component {
 
     state = {
         page: 1,
@@ -29,6 +29,10 @@ class Home extends React.PureComponent {
         onEndReachedCalledDuringMomentum: false,
         filterVisible: false,
     };
+
+    componentDidMount() {
+        this.props.checkConnection();
+    }
 
     handleOnValueChangePicker = (itemValue) => {
         this.handleSearch(itemValue);
@@ -40,33 +44,44 @@ class Home extends React.PureComponent {
     };
 
     handleSearch = (itemValue) => {
-        const { sort, search, page } = this.state;
-        const { getSearchData, reposData } = this.props;
+        const {
+            sort,
+            search,
+            page
+        } = this.state;
 
-        if (itemValue) {
+        const {
+            getSearchData,
+            reposData
+        } = this.props;
+
+        if (itemValue === 'forks' || itemValue === 'search') {
             getSearchData(itemValue, search);
         }
         else {
             getSearchData(sort, search);
         }
+
         this.setState({
             page: 1,
         });
     };
 
     handleOnReachTreshHold = () => {
-        const { search, page, sort } = this.state;
+        const {
+            search,
+            page,
+            sort
+        } = this.state;
 
         const { getNewData } = this.props;
 
-        if (search && !this.onEndReachedCalledDuringMomentum) {
+        if (search) {
             getNewData(page + 1, sort, search);
 
             this.setState({
                 page: page + 1,
-                onEndReachedCalledDuringMomentum: true
             });
-
         }
     };
 
@@ -80,10 +95,12 @@ class Home extends React.PureComponent {
 
         const {
             reposData,
-            processing
+            processing,
+            newLoading,
+            isConnection
         } = this.props;
 
-        if (processing)
+        if (processing && !newLoading)
             return (
                 <View style={styles.container}>
                     <Spinner color='blue' />
@@ -92,7 +109,7 @@ class Home extends React.PureComponent {
 
         return (
             <Container style={styles.container}>
-                <View style={{flex: 1}}>
+                <View style={{ flex: 1 }}>
                     <Header
                         style={{ backgroundColor: 'transparent' }}
                         searchBar
@@ -103,10 +120,10 @@ class Home extends React.PureComponent {
                             <Input
                                 placeholder="Search"
                                 returnKeyType="search"
-                                onEndEditing={this.handleSearch}
                                 autoCapitalize='none'
                                 value={search}
                                 onChangeText={(search) => this.setState({ search: search })}
+                                onEndEditing={this.handleSearch}
                             />
                             <TouchableOpacity onPress={() => this.setState({ filterVisible: true })}>
                                 <Icon name="ios-people" />
@@ -124,12 +141,11 @@ class Home extends React.PureComponent {
                         </Picker>
                     )}
                     {
-                        (reposData && reposData.length < 1) &&
+                        (reposData && reposData.length < 1 && isConnection) &&
                         (<Text>Offline</Text>)
                     }
                     <FlatList
                         style={styles.flatlist}
-                        bounces={false}
                         data={reposData}
                         renderItem={({ item }) =>
                             <ItemModalView
@@ -137,10 +153,12 @@ class Home extends React.PureComponent {
                             />
                         }
                         keyExtractor={this.keyExtractor}
-                        onEndReachedThreshold={0}
-                        onMomentumScrollBegin={() => this.setState({ onEndReachedCalledDuringMomentum: false })}
-                        onMomentumScrollEnd={this.handleOnReachTreshHold}
+                        onEndReached={this.handleOnReachTreshHold}
                     />
+                    {(processing && newLoading) && (
+                        <View style={styles.loading_spinner}>
+                            <Spinner color='blue' />
+                        </View>)}
                 </View>
             </Container>
         );

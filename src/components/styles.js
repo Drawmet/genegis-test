@@ -87,5 +87,10 @@ export default StyleSheet.create({
     },
     picker: {
         height: 50
+    },
+    loading_spinner:{
+        flex: 1,
+        maxHeight: 80,
+        width: width
     }
 })

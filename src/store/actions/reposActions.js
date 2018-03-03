@@ -1,3 +1,11 @@
+import {
+    NetInfo
+} from 'react-native';
+
+import {
+    isConnectionActionSuccess
+} from './appActions';
+
 export const ACTION_REPOS_GET_REQUEST = 'ACTION_REPOS_GET_REQUEST';
 export const ACTION_REPOS_GET_SUCCESS = 'ACTION_REPOS_GET_SUCCESS';
 export const ACTION_REPOS_GET_FAILURE = 'ACTION_REPOS_GET_FAILURE';
@@ -33,14 +41,42 @@ function getReposFailureAction(error) {
     };
 }
 
-export function getReposAction(page = 0, sort = 'stars', keywords = 'react-native') {
-    return (dispatch, getState) => {
-        dispatch(getReposRequestAction('Repositories List'));
-        const { oauth } = getState().user.userData;
+function getRepos(oauth, keywords, page, sort) {
+    return dispatch => {
         fetch(`https://api.github.com/search/repositories?code=${oauth}&q=${keywords}&page=${page}&per_page=15&sort=${sort}`)
             .then((data) => data.json())
             .then((repos) => dispatch(getReposSuccessAction(repos.items)))
             .catch((error) => dispatch(getReposFailureAction(error.message)));
+    }
+}
+
+export function getReposAction(page = 0, sort = 'stars', keywords = 'react-native') {
+    return (dispatch, getState) => {
+        dispatch(getReposRequestAction('Repositories List'));
+
+        const {
+            oauth
+        } = getState().user.userData;
+
+        console.log(sort);
+
+        NetInfo.getConnectionInfo().then((connection) => {
+            switch (connection.type) {
+                case 'none':
+                    return dispatch(isConnectionActionSuccess(false));
+                case 'unknown':
+                    fetch('https://api.github.com/')
+                        .then((data) => {
+                            dispatch(isConnectionActionSuccess(true));
+                            dispatch(getRepos(oauth, keywords, page, sort));
+                        })
+                        .catch(() => dispatch(isConnectionActionSuccess(false)));
+                    return
+                default:
+                    dispatch(getRepos(oauth, keywords, page, sort));
+                    return dispatch(isConnectionActionSuccess(true));
+            }
+        });
     };
 }
 
@@ -71,13 +107,39 @@ function getNewReposFailureAction(error) {
     };
 }
 
-export function getNewReposAction(page = 0, sort = 'stars', keywords = 'react-native') {
-    return (dispatch, getState) => {
-        dispatch(getNewReposRequestAction('Repositories List'));
-        const { oauth } = getState().user.userData;
+function getNewRepos(oauth, keywords, page, sort) {
+    return dispatch => {
         fetch(`https://api.github.com/search/repositories?code=${oauth}&q=${keywords}&page=${page}&per_page=15&sort=${sort}`)
             .then((data) => data.json())
             .then((repos) => dispatch(getNewReposSuccessAction(repos.items)))
             .catch((error) => dispatch(getNewReposFailureAction(error.message)));
+    }
+}
+
+export function getNewReposAction(page = 0, sort = 'stars', keywords = 'react-native') {
+    return (dispatch, getState) => {
+        dispatch(getNewReposRequestAction('Repositories List'));
+
+        const {
+            oauth
+        } = getState().user.userData;
+
+        NetInfo.getConnectionInfo().then((connection) => {
+            switch (connection.type) {
+                case 'none':
+                    return dispatch(isConnectionActionSuccess(false));
+                case 'unknown':
+                    fetch('https://api.github.com/')
+                        .then((data) => {
+                            dispatch(isConnectionActionSuccess(true));
+                            dispatch(getNewRepos(oauth, keywords, page, sort));
+                        })
+                        .catch(() => dispatch(isConnectionActionSuccess(false)));
+                    return
+                default:
+                    dispatch(getNewRepos(oauth, keywords, page, sort));
+                    return dispatch(isConnectionActionSuccess(true));
+            }
+        });
     };
 }

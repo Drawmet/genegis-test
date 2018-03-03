@@ -9,7 +9,9 @@ const actionTypes = {
 };
 
 const initialState = {
-    processing: true
+    processing: true,
+    newLoading: true,
+    isConnection: false
 };
 
 /**
@@ -21,18 +23,34 @@ export default (state = initialState, action) => {
         case actionTypes.ACTION_REPOS_GET_REQUEST:
             return {
                 ...state,
-                processing: true
+                processing: true,
+                newLoading: false,
             };
+        case actionTypes.ACTION_REPOS_GET_NEW_REQUEST:
+            return {
+                ...state,
+                processing: true,
+                newLoading: true
+            }
+        case actionTypes.ACTION_APP_CONNECTION_SUCCESS:
+            return {
+                ...state,
+                isConnection: action.payload.connection
+            }
         case 'persist/REHYDRATE':
         case actionTypes.ACTION_APP_PERSISTOR_LOADED:
         case actionTypes.ACTION_REPOS_GET_SUCCESS:
         case actionTypes.ACTION_REPOS_GET_FAILURE:
         case actionTypes.ACTION_USER_SIGN_IN_SUCCESS:
         case actionTypes.ACTION_USER_SIGN_IN_FAILURE:
+        case actionTypes.ACTION_REPOS_GET_NEW_SUCCESS:
+        case actionTypes.ACTION_REPOS_GET_NEW_FAILURE:
             return {
                 ...state,
-                processing: false
-            };
+                processing: false,
+                newLoading: false,
+                isConnection: false
+            }
         default:
             return state;
     }
